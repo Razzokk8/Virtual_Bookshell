@@ -1,0 +1,39 @@
+#footer {
+    
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px; 
+    width: 100%;
+    height: 60px;
+    color: whitesmoke;
+    margin-top: auto;
+
+    .logo {
+        color: whitesmoke;
+    }
+    
+    .createdBY {
+        color: #008080;
+        text-decoration: underline;
+    }
+    a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #008080;
+    }
+}
+
+@media (max-width: 459px) {
+    #footer {
+        height: 120px;
+    }
+ }
+
+ @media (max-width: 339px) {
+     .createdBY {
+            display: none;
+        }
+ }

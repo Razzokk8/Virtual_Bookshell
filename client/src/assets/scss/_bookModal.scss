@@ -1,0 +1,169 @@
+#mask {
+    min-width: 100vw;
+    min-height: 100vh;
+    height: 100%;
+    background-color: #2c2c2ce5;
+    z-index: 10;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+
+#bookModalContainer {
+   max-width: 1166px;
+   width: 70vw;
+   min-height:70%;
+    margin: 0 auto;
+    z-index: 11;
+    opacity: 1;
+    position: relative;
+    top: 15%;
+
+
+
+    .closeButton {
+        position: relative;
+        left: 100%;
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        background-color: #008080;
+        border: solid 12px #008080;
+        font-weight: 900;
+        text-transform:uppercase;
+        color: #2c2c2c;
+        font-size: 2.4rem;
+    }
+
+    button:hover {
+    background-color: darkmagenta;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border: none 0px;
+    }
+
+    #bookModal {
+    background-color: #004D4D;
+    min-height: 100%;
+    max-width: 1215px;
+    border: solid 12px #008080;
+    border-radius: 50px;
+    margin-right: -45px;
+    margin-top: -45px;
+    display: flex;
+    flex-direction: row;
+    }
+
+    .card {
+    background-color: #004d4d00;
+    border: 0px;
+    min-width: 270px;
+    max-width: 350px;
+
+    .btLink {
+        background-color: #C4C4C4;
+        text-transform:uppercase;
+        color: #008080;
+       font-weight: 900;
+       width: 260px;
+       height: 38px;
+       text-align: left;
+       border: 0px;
+    }
+    .btLink:hover {
+        background-color: darkmagenta;
+        color: #C4C4C4;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        border: none 0px;
+    }
+
+    ul {
+            background-color: #004D4D;
+            cursor: pointer;
+            border: none 0px;
+            
+            li {
+            color: #DEDADA;
+            font-weight: 700;
+                a {
+                    text-decoration: none;
+                            color: #C4C4C4;
+                }
+            }
+
+            li:hover {
+                background-color: darkmagenta;
+                box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+            }
+        }
+
+    }
+
+    body {
+  position: relative;
+}
+
+
+    .textContainer {
+    color: #C4C4C4;
+    max-width: 835px;
+    width: 100%;
+    max-height: 80vh;
+    min-height: 30vh;
+    margin-right: 1.5rem;
+
+        h1 {
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        h5 {
+            font-weight: 700;
+        }
+        hr {
+        color: #C4C4C4;
+        border: solid 2px ;
+        }
+    }
+    .silverSect {
+    background-color: #C4C4C4;
+    color: #2c2c2c;
+    min-width: 100%;
+
+    h5 {
+    font-weight: 700;
+    }
+    }
+    .textScroll {
+    background-color: rgba(196, 196, 196, 0.450);
+    color: #2c2c2c;
+    min-height: 100%;
+    overflow: scroll;
+        
+        p {
+            font-weight: 700;
+        }
+
+    }
+
+@media (max-width: 768px) {
+    #bookModal {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .textContainer {
+        margin: 0;
+    }
+    .textWrap {
+        min-width: 300px;
+        margin-left: 20px;
+    }
+ }
+}
+@media (max-width: 768px) {
+    #bookModalContainer {
+        margin-left: 16px;
+        min-width: 82%;
+    } 
+}
