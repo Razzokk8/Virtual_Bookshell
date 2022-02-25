@@ -1,2 +1,3 @@
 # Virtual_Bookshell
-DCI final project
+Final project by Peony Langner, Riccardo Limiti, Lukasz Trzcinski 
+
