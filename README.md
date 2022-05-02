@@ -39,10 +39,10 @@ during the final modules of the studying process in
 
 Team members
 
-Peony Langner - Backend Team : Linked In
+Peony Langner - Backend Team 
 
-Riccardo Limiti - Designer : Linked In 
+Riccardo Limiti - Designer 
 
-Lukasz Trzcinski - Frontend Team : Linked In 
+Lukasz Trzcinski - Frontend Team 
 
 🙌 🙏
