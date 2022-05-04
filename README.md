@@ -41,7 +41,7 @@ Team members
 
 Peony Langner - Backend Team 
 
-Riccardo Limiti - Designer 
+Riccardo Limiti - Designer [Linkedin](https://www.linkedin.com/in/riccardo-limiti-a81061226/)
 
 Lukasz Trzcinski - Frontend Team 
 
