@@ -1,7 +1,7 @@
-# Virtual_Bookshell
+# Virtual_Bookshell 🐚🐚
 Final project for DCI web development course by Peony Langner, Riccardo Limiti, Lukasz Trzcinski. 
 
-![VB](image.jpg)
+# 📚
 
 RUN APP: 
 
